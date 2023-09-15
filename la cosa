@@ -1,0 +1,15 @@
+meme_dict = {
+            "WEON": "Amigo cercano",
+            "SHETTU": "Persona que no piensa dos veces las cosas",
+            "MARIO BRO": "Forma de decir maric0n sin ofender",
+            "TE PASO UN ADRIANO": "Se te fue la señal o no te funciona el codigo"
+            }
+
+
+word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+
+if word in meme_dict.keys():
+    print(meme_dict[word])
+    
+else:
+    print("que estai escribiendo?")
